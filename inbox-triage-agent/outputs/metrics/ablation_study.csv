@@ -1,0 +1,6 @@
+Feature Subset,Subset Key,Accuracy,Features Count
+Subject TF-IDF Only,subject_only,1.0,500
+Body BoW Only,body_only,1.0,1500
+Text Only (Subject + Body),text_only,1.0,2000
+Metadata Only (Domain/Time/Links),metadata_only,0.5225,8
+Full Pipeline (Subject + Body + Meta),all,1.0,2008

@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1,Weighted F1,Precision (Macro),Recall (Macro),PPT Reference,Ref Difference
+Naive Bayes,100.00%,100.00%,100.00%,100.00%,100.00%,78.0%,+22.00%
+Logistic Regression,100.00%,100.00%,100.00%,100.00%,100.00%,85.0%,+15.00%
+SVM (RBF),100.00%,100.00%,100.00%,100.00%,100.00%,88.0%,+12.00%

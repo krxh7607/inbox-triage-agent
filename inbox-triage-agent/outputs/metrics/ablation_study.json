@@ -1,0 +1,32 @@
+[
+  {
+    "Feature Subset": "Subject TF-IDF Only",
+    "Subset Key": "subject_only",
+    "Accuracy": 1.0,
+    "Features Count": 500
+  },
+  {
+    "Feature Subset": "Body BoW Only",
+    "Subset Key": "body_only",
+    "Accuracy": 1.0,
+    "Features Count": 1500
+  },
+  {
+    "Feature Subset": "Text Only (Subject + Body)",
+    "Subset Key": "text_only",
+    "Accuracy": 1.0,
+    "Features Count": 2000
+  },
+  {
+    "Feature Subset": "Metadata Only (Domain/Time/Links)",
+    "Subset Key": "metadata_only",
+    "Accuracy": 0.5225,
+    "Features Count": 8
+  },
+  {
+    "Feature Subset": "Full Pipeline (Subject + Body + Meta)",
+    "Subset Key": "all",
+    "Accuracy": 1.0,
+    "Features Count": 2008
+  }
+]
